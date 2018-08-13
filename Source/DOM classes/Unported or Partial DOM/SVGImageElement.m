@@ -102,7 +102,8 @@ CGImageRef SVGImageCGImage(AppleNativeImageRef img)
         NSError *error = nil;
 		imageData = [NSData dataWithContentsOfStream:stream initialCapacity:NSUIntegerMax error:&error];
 		if( error )
-			SVGKitLogError(@"[%@] ERROR: unable to read stream from %@ into NSData: %@", [self class], _href, error);
+//			SVGKitLogError(@"[%@] ERROR: unable to read stream from %@ into NSData: %@", [self class], _href, error);
+            ;
 	}
 	
 	/** Now we have some raw bytes, try to load using Apple's image loaders
@@ -119,7 +120,7 @@ CGImageRef SVGImageCGImage(AppleNativeImageRef img)
         
         if( effectiveSource != nil )
         {
-            SVGKitLogInfo(@"Attempting to interpret the image at URL as an embedded SVG link (Apple failed to parse it): %@", _href );
+//            SVGKitLogInfo(@"Attempting to interpret the image at URL as an embedded SVG link (Apple failed to parse it): %@", _href );
             if( imageData != nil )
             {
                 /** NB: sources can only be used once; we've already opened the stream for the source

@@ -167,7 +167,8 @@
 																					path:path relativeTo:CGPointZero];
 						lastCoordinate = lastCurve.p;
 					} else  {
-                        SVGKitLogWarn(@"unsupported command %@", command);
+//                        SVGKitLogWarn(@"unsupported command %@", command);
+                        ;
                     }
                 }
             }

@@ -19,7 +19,8 @@
 		{
 			for( CALayer* subLayer in self.sublayers )
 			{
-				SVGKitLogVerbose(@"...contains point, Apple will now check sublayer: %@", subLayer);
+//				SVGKitLogVerbose(@"...contains point, Apple will now check sublayer: %@", subLayer);
+                ;
 			}
 			return TRUE;
 		}

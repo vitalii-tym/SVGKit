@@ -290,10 +290,10 @@
     [gradientLayer setColors:_colors];
     [gradientLayer setLocations:_locations];
 	
-	SVGKitLogVerbose(@"[%@] set gradient layer start = %@", [self class], NSStringFromCGPoint(gradientLayer.startPoint));
-	SVGKitLogVerbose(@"[%@] set gradient layer end = %@", [self class], NSStringFromCGPoint(gradientLayer.endPoint));
-	SVGKitLogVerbose(@"[%@] set gradient layer colors = %@", [self class], _colors);
-	SVGKitLogVerbose(@"[%@] set gradient layer locations = %@", [self class], _locations);
+//	SVGKitLogVerbose(@"[%@] set gradient layer start = %@", [self class], NSStringFromCGPoint(gradientLayer.startPoint));
+//	SVGKitLogVerbose(@"[%@] set gradient layer end = %@", [self class], NSStringFromCGPoint(gradientLayer.endPoint));
+//	SVGKitLogVerbose(@"[%@] set gradient layer colors = %@", [self class], _colors);
+//	SVGKitLogVerbose(@"[%@] set gradient layer locations = %@", [self class], _locations);
 //    gradientLayer.colors = colors;
 //    gradientLayer.locations = locations;
     
