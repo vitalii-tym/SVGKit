@@ -210,7 +210,9 @@
 						scaleToViewBox = CGAffineTransformConcat( transformsThatHonourAspectRatioRequirements, scaleToViewBox );
 					}
 				}	
-				else
+                else {
+                    
+                }
 //					SVGKitLogWarn( @"Unsupported: preserveAspectRatio set to SLICE. Code to handle this doesn't exist yet.");
                     ;
 				
